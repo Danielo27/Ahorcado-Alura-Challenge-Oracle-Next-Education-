@@ -21,7 +21,10 @@ En la carpeta Capture en el repositorio puden ver mas imagenes acerca de como se
 
 |PC|MOVIL|TABLET|
 |--|--|--|
-|![Interfaz Pc](https://raw.githubusercontent.com/Danielo27/Ahorcado-Alura-Challenge-Oracle-Next-Education-/main/capture/PC_Add_Word.PNG)| ![Interfaz Iphone](https://raw.githubusercontent.com/Danielo27/Ahorcado-Alura-Challenge-Oracle-Next-Education-/main/capture/Phone_Add_Words.png) |![Interfaz Tablet](https://raw.githubusercontent.com/Danielo27/Ahorcado-Alura-Challenge-Oracle-Next-Education-/main/capture/Tablet_Add_Word.png)|
+|<img src="https://raw.githubusercontent.com/Danielo27/Ahorcado-Alura-Challenge-Oracle-Next-Education-/main/capture/PC_Add_Word.PNG" width="600px">| <img src="https://raw.githubusercontent.com/Danielo27/Ahorcado-Alura-Challenge-Oracle-Next-Education-/main/capture/Phone_Add_Words.png" width="200px">|<img src="https://raw.githubusercontent.com/Danielo27/Ahorcado-Alura-Challenge-Oracle-Next-Education-/main/capture/Tablet_Add_Word.png" width="300px">
+
+
+
 El boton de keyboard y el input oculto para los dispositivos moviles solo se activa al detectar pantallas con un tamaño menor a 900px.
 
 
