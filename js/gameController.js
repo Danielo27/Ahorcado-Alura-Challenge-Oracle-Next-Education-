@@ -77,8 +77,6 @@ function gameStart() {
 }
 /*05: TERMINA JUEGO | FINISH GAME*/
 function endGame() {
-    score = 0;
-    failed = 0;
     word = null;
     attempts = ["", ""];
     gameState = false;
