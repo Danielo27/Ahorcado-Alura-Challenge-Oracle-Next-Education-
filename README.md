@@ -1,6 +1,6 @@
 # Ahorcado-Alura-Challenge-Oracle-Next-Education !
 
-![insignia alura](https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1644516322badge.png)
+![insignia alura](https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1644516322badge.png?utm_campaign=alura_latam_-_challenge_email_projeto_2_esp&utm_medium=email&utm_source=RD+Station)
 
 ## [Demostracion](https://danielo27.github.io/Ahorcado-Alura-Challenge-Oracle-Next-Education-/)
 
