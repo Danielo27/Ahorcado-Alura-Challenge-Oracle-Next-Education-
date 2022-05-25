@@ -24,11 +24,18 @@ controlTouch.addEventListener("input", function(event) {
 /*02: CONTROLADOR DE PULSACIONES DE TECLADO PC | PC KEYSTROKE CONTROLLER*/
 document.addEventListener('keydown', function gameController(event) {
     if (touchDevice == false) {
-        document.querySelector("#keyboard").value = event['key'];
-        var key = document.querySelector("#keyboard").value;
-        var request = isRightLetter(key);
-        gameExecution(request, key);
-        cleanInput("#keyboard");
+        var specialKeyPress = specialKeys(event['key'].toLowerCase());
+        console.log(event['key']);
+        if (specialKeyPress != true) {
+            if (gameState != false) {
+                document.querySelector("#keyboard").value = event['key'];
+                var key = document.querySelector("#keyboard").value;
+                var request = isRightLetter(key);
+                gameExecution(request, key);
+                cleanInput("#keyboard");
+            }
+        }
+
     }
 });
 /*03: EVALUA LAS REGLAS DE JUEGO | ASSESS THE RULES OF THE GAME*/
@@ -160,7 +167,17 @@ function regWords(request, type) {
     }
     return response;
 }
-
+/*13: VERIFICA QUE NO SE PULSEN TECLAS ESPECIALES | VERIFY THAT NO SPECIAL KEYS ARE PRESSED*/
+function specialKeys(request) {
+    var response = false;
+    var specialKeys = ['contextmenu', 'control', 'tab', 'capslock', 'shift', 'alt', 'altgraph', 'enter', 'meta', 'dead', 'backspace', 'home', 'end', 'delete', 'pageup', 'pagedown', 'arrowup', 'arrowdown', 'arrowleft', 'arrowright', 'numlock', 'escape', 'pause', 'insert', 'scrolllock', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12'];
+    for (var x = 0; x < specialKeys.length; x++) {
+        if (request == specialKeys[x]) {
+            response = true;
+        }
+    }
+    return response
+}
 /*
     Alura Challenge - Oracle Next Education
     Dev Daniel Quintero Henriquez - Colombia
