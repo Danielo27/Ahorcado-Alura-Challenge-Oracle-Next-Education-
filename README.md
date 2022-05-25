@@ -30,8 +30,13 @@ En la carpeta Capture en el repositorio puden ver mas imagenes acerca de como se
 
 El boton de keyboard y el input oculto para los dispositivos moviles solo se activa al detectar pantallas con un tamaño menor a 900px, Para dar el mensaje de que el usuario gano o perdio se creo un popup flotante que aun hay que mejorar para que se vea mucho mejor al usuario.
 
-## Agradecimientos
+## Reparaciones :wrench:
 
-Espero el proyecto les guste y cualquier aportacion sera bien recibida para mejorar el codigo.
+- Se reparo el bug que hacia que el juego validara las teclas especiales como letras cuando se juega desde un pc.
+
+## Agradecimientos :punch:
+
+- Espero el proyecto les guste y cualquier aportacion sera bien recibida para mejorar el codigo.
+- Agradecimientos al compañero @jhsalaz por informar acerca del bug que provocaba que las teclas especiles se validaran como letras.
 
 **Desarrollado por Daniel Quintero Henriquez :sweat_smile:**
