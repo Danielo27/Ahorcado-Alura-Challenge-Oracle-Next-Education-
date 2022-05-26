@@ -36,6 +36,7 @@ El boton de keyboard y el input oculto para los dispositivos moviles solo se act
 ## Reparaciones :wrench:
 
 - Se reparo el bug que hacia que el juego validara las teclas especiales como letras cuando se juega desde un pc.
+- El popup es responsive desing.
 
 ## Agradecimientos :punch:
 
