@@ -177,34 +177,40 @@ header {
     visibility: visible;
 }
 
+/*---fixed------*/
+
 .popup {
-    color: #8BBF5A;
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
     width: 30%;
-    padding: 2%;
-    border-radius: 17px;
-    background-color: #EAFAF1;
     position: relative;
-    margin: 20% auto;
     transition: all 5s ease-in-out;
-    text-align: center;
+}
+
+.content-popup {
+    text-align: center
 }
 
 #closePopup {
-    float: right;
-    font-size: 20px;
-    font-weight: bold;
     color: #000000;
+    font-weight: bold;
     transition: all 200ms;
-    border-radius: 100px;
     border: none;
     outline: none;
+    padding: 10px;
     background-color: #8BBF5A;
+    border-radius: 7px;
 }
 
 #closePopup:hover {
     color: #EAFAF1;
+    background-color: #557438;
 }
 
+
+/*---fixed------*/
 
 /*Touch Keyboard*/
 
@@ -264,6 +270,11 @@ footer .about a:hover {
 /*Tablet or Ipad*/
 
 @media(max-width:900px) {
+    /*fixed*/
+    .popup {
+        width: 70%;
+        font-size: 20px;
+    }
     /*Page 1: Main Page*/
     .page_1 {
         margin-top: 30%;
@@ -308,6 +319,11 @@ footer .about a:hover {
 /*Iphone or Android*/
 
 @media(max-width:500px) {
+    /*fixed*/
+    .popup {
+        width: 90%;
+        padding: 7px;
+    }
     /*Page 1: Main Page*/
     .page_1 {
         margin-top: 30%;
